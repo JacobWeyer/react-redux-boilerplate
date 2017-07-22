@@ -1,0 +1,10 @@
+@import "variables";
+@import "mixins/mixins";
+
+/**
+  We use REMS for responsive design
+ */
+html {
+  font-size: $base-size;
+  font-family: $default-font-family;
+}

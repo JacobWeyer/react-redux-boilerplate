@@ -1,0 +1,33 @@
+/**
+  Import and set font families here
+ */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+$default-font-family: 'Open Sans', sans-serif;
+$body-text: $default-font-family;
+
+/**
+  This is the base font size for REMS calculations
+ */
+$base-size: 14px;
+
+/**
+  Colors
+ */
+$bg-color: #FFF;
+$text-color: #000;
+
+/**
+  Sass Breakpoint Mixin variables. These are required by the breakpoints mixin.
+  For useage example, checkout the mixins/breakpoints.scss file
+ */
+$breakpoints: (
+  "phone":        400px,
+  "phone-wide":   480px,
+  "phablet":      560px,
+  "tablet-small": 640px,
+  "tablet":       768px,
+  "tablet-wide":  1024px,
+  "desktop":      1248px,
+  "desktop-wide": 1440px
+);

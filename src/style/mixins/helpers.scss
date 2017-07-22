@@ -1,0 +1,33 @@
+/*--------------------------------
+	Helper mixins
+*/
+
+// Contain floats / clearfix
+
+@mixin cf {
+
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+
+// Hide from both screenreaders and browsers
+
+@mixin hidden {
+  display: none;
+  visibility: hidden;
+}
+
+@mixin visible($state: 'block') {
+  display: unquote($state);
+  visibility: visible;
+}
+
+// Hide visually and from screenreaders, but maintain layout
+
+@mixin invisible {
+  visibility: hidden;
+}
