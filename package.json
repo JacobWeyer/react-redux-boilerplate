@@ -31,7 +31,7 @@
     "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.29.0",
     "immutable": "^3.8.1",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.19",
     "node-sass": "^4.5.3",
     "path": "^0.12.7",
     "postcss": "^6.0.4",
